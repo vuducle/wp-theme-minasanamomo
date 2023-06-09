@@ -1,0 +1,38 @@
+#we-like-kpop {
+    transition: .3s all ease-out;
+    position: sticky;
+    z-index: 100;
+}
+
+body.navi-scroll #we-like-kpop {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.relative-header {
+    position: relative;
+}
+
+.relative-header img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+@media (max-width: 992px) {
+    .julia-nguyen-brand {
+        height: 50px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 992px) {
+    .julia-nguyen-brand {
+        height: 100px;
+        object-fit: cover;
+    }
+}
